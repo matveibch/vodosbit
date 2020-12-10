@@ -47,9 +47,16 @@ border: 1px solid orange;
 
 .even  {
     background: #f3f3f3; /* Цвет фона > div*/
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
    }
+.uneven  {
+      /*   background: #faf3a3; Цвет фона > div*/
+       padding-top:  5px;
+       padding-bottom: 5px;
+      }
+
+
 .divinput {
   margin-top: 10px;
   margin-bottom: 10px;
