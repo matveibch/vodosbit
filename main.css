@@ -1,0 +1,63 @@
+/*.row > * {
+background: yellow;
+border: 1px solid orange;
+
+} */
+
+.header {
+  margin-top: 20px;
+}
+
+.line {
+  background: #005e95;
+  font-weightй:  bold;
+  color: #f0f0f0;
+  margin-left: 10px;
+  padding-top:  10px;
+  padding-bottom:  10px;
+  padding-right:  20px;
+  text-align:right;
+}
+.client {
+  margin-top: 10px;
+  padding-right: 0px;
+  text-align:right;
+  color: #495057;
+
+}
+
+.dev_count {
+  color: #495057;
+}
+
+.logo {
+    background: white;
+    margin-left: 5px;
+  }
+.nav-link{
+    color: #005e95;
+}
+.nav-link:active{
+    color: #005e95;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background: #005e95;
+}
+
+.even  {
+    background: #f3f3f3; /* Цвет фона > div*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+.divinput {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  background: #005e95;
+  border-color: #005e95;
+  color: #f0f0f0;
+}

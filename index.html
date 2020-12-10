@@ -1,0 +1,298 @@
+
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" href="main.css">
+      <title>Передача показаний</title>
+   </head>
+   <body>
+      <header>
+      <div class="container">
+         <div class="row header align-items-center">
+            <img src="logo.png" alt="" class="logo" >
+            <div class="col line rounded"> Ввод показаний</div>
+         </div>
+      </div>
+      <!-- ++Меню, клиент -->
+      <div class="container client" >
+         <div class="row d-flex ">
+            <div class="col-9">
+               <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cчетчики</a>
+                     <div class="dropdown-menu ">
+                        <a class="dropdown-item active" data-toggle="tab" href="#nav-count1">V-78541</a>
+                        <a class="dropdown-item" data-toggle="tab" href="#nav-count2">V-785-ddd41</a>
+                        <a class="dropdown-item" data-toggle="tab" href="#nav-count3">V-7325-dd341</a>
+                        <div class="dropdown-divider"></div>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " id="nav-profile-tab" data-toggle="tab" href="#nav-info">Информация</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-3" style="margin-top: 10px;">
+               <h6 class="" style="font-weight:normal;">Иванов Сергей Михайлович</h6>
+               <h6 class="" style="color: #f44b4b;font-weight:normal;">Долг: 2049р </h6>
+            </div>
+         </div>
+      </div>
+      <!-- Меню, клиент -->
+
+      <section>
+         <div class="tab-content">
+
+            <div class="tab-pane fade show active" id="nav-count1" role="tabpanel" aria-labelledby="nav-home-tab">
+               <div class="container dev_count">
+                  <div class="row">
+                     <div class="col-4"> <h7>Наименование ТУ:</h7> </div>
+                     <div class="col-4"> <h7>V-7845</h7> </div>
+                  </div>
+                  <div class="row even" >
+                     <div class="col-4"> <h7>Номер ТУ:</h7> </div>
+                     <div class="col-4"> <h7>--</h7> </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-4"> <h7>Номер счетчика:</h7> </div>
+                     <div class="col-4"> <h7>16254536598741</h7> </div>
+                  </div>
+                  <div class="row even" >
+                     <div class="col-4"> <h7>Зона:</h7> </div>
+                     <div class="col-4"> <h7>Владивосток</h7> </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-4"> <h7>Дата окончания поверки:</h7> </div>
+                     <div class="col-4"> <h7>20.11.2022</h7> </div>
+                  </div>
+                  <div class="row even" >
+                     <div class="col-4"> <h7>Расход тек. месяца:</h7> </div>
+                     <div class="col-4"> <h7>2356</h7> </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-4"> <h7>Дата пред. показаний:</h7> </div>
+                     <div class="col-4"> <h7>20.11.2020</h7> </div>
+                  </div>
+                  <div class="row even">
+                     <div class="col-4"> <h7>Предыдущее показание:</h7> </div>
+                     <div class="col-4"> <h7>2123548</h7> </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-4"> <h7>Показание пред. под.</h7> </div>
+                     <div class="col-4"> <h7>--</h7> </div>
+                  </div>
+                  <div class="row even">
+                     <div class="col-4"> <h7>Показание пред. обр.:</h7> </div>
+                     <div class="col-4"> <h7>--</h7> </div>
+                  </div>
+                  <div class="row divinput">
+                     <div class="col-4 my-1"> <h6>Текущее показание:</h6> </div>
+                     <div class="col-4"> <input type="number" class="form-control">  </div>
+                  </div>
+                  <div class="row divinput ">
+                     <div class="col-4 my-1"> <h6>Показание тек. под.:</h6> </div>
+                     <div class="col-4"> <input type="number" class="form-control">  </div>
+                  </div>
+                  <div class="row divinput ">
+                     <div class="col-4 my-1"> <h6>Показание тек. обр.:</h6> </div>
+                     <div class="col-4"> <input type="number" class="form-control">  </div>
+                  </div>
+
+                  <div class="row ">
+                     <div class="col-4"> <h7>Расход.</h7> </div>
+                     <div class="col-4"> <h7>2315</h7> </div>
+                  </div>
+                  <div class="row even">
+                     <div class="col-4"> <h7>Коэф-т транф.:</h7> </div>
+                     <div class="col-4"> <h7>1</h7> </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-4"> <h7>Итог Расход.:</h7> </div>
+                     <div class="col-4"> <h7>2315</h7> </div>
+                  </div>
+
+                 </div>
+              </div>
+
+            <div class="tab-pane fade show" id="nav-count2" role="tabpanel" aria-labelledby="nav-home-tab">
+                 <div class="container dev_count">
+                    <div class="row">
+                       <div class="col-4"> <h7>Наименование ТУ:</h7> </div>
+                       <div class="col-4"> <h7>V-785-ddd41</h7> </div>
+                    </div>
+                    <div class="row even" >
+                       <div class="col-4"> <h7>Номер ТУ:</h7> </div>
+                       <div class="col-4"> <h7>--</h7> </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-4"> <h7>Номер счетчика:</h7> </div>
+                       <div class="col-4"> <h7>213213123123</h7> </div>
+                    </div>
+                    <div class="row even" >
+                       <div class="col-4"> <h7>Зона:</h7> </div>
+                       <div class="col-4"> <h7>Владивосток</h7> </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-4"> <h7>Дата окончания поверки:</h7> </div>
+                       <div class="col-4"> <h7>20.11.2022</h7> </div>
+                    </div>
+                    <div class="row even" >
+                       <div class="col-4"> <h7>Расход тек. месяца:</h7> </div>
+                       <div class="col-4"> <h7>2356</h7> </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-4"> <h7>Дата пред. показаний:</h7> </div>
+                       <div class="col-4"> <h7>20.11.2020</h7> </div>
+                    </div>
+                    <div class="row even">
+                       <div class="col-4"> <h7>Предыдущее показание:</h7> </div>
+                       <div class="col-4"> <h7>2123548</h7> </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-4"> <h7>Показание пред. под.</h7> </div>
+                       <div class="col-4"> <h7>--</h7> </div>
+                    </div>
+                    <div class="row even">
+                       <div class="col-4"> <h7>Показание пред. обр.:</h7> </div>
+                       <div class="col-4"> <h7>--</h7> </div>
+                    </div>
+                    <div class="row divinput">
+                       <div class="col-4 my-1"> <h6>Текущее показание:</h6> </div>
+                       <div class="col-4"> <input type="number" class="form-control">  </div>
+                    </div>
+                    <div class="row divinput ">
+                       <div class="col-4 my-1"> <h6>Показание тек. под.:</h6> </div>
+                       <div class="col-4 my-1"> <input type="number" class="form-control">  </div>
+                    </div>
+                    <div class="row divinput ">
+                       <div class="col-4 "> <h6>Показание тек. обр.:</h6> </div>
+                       <div class="col-4"> <input type="number" class="form-control">  </div>
+                    </div>
+
+                    <div class="row ">
+                       <div class="col-4"> <h7>Расход.</h7> </div>
+                       <div class="col-4"> <h7>2315</h7> </div>
+                    </div>
+                    <div class="row even">
+                       <div class="col-4"> <h7>Коэф-т транф.:</h7> </div>
+                       <div class="col-4"> <h7>1</h7> </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-4"> <h7>Итог Расход.:</h7> </div>
+                       <div class="col-4"> <h7>2315</h7> </div>
+                    </div>
+
+                   </div>
+                </div>
+
+            <div class="tab-pane fade show" id="nav-count3" role="tabpanel" aria-labelledby="nav-home-tab">
+                                 <div class="container dev_count">
+                                    <div class="row">
+                                       <div class="col-4"> <h7>Наименование ТУ:</h7> </div>
+                                       <div class="col-4"> <h7>V-7325-dd341</h7> </div>
+                                    </div>
+                                    <div class="row even" >
+                                       <div class="col-4"> <h7>Номер ТУ:</h7> </div>
+                                       <div class="col-4"> <h7>--</h7> </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-4"> <h7>Номер счетчика:</h7> </div>
+                                       <div class="col-4"> <h7>213213123123</h7> </div>
+                                    </div>
+                                    <div class="row even" >
+                                       <div class="col-4"> <h7>Зона:</h7> </div>
+                                       <div class="col-4"> <h7>Владивосток</h7> </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-4"> <h7>Дата окончания поверки:</h7> </div>
+                                       <div class="col-4"> <h7>20.11.2022</h7> </div>
+                                    </div>
+                                    <div class="row even" >
+                                       <div class="col-4"> <h7>Расход тек. месяца:</h7> </div>
+                                       <div class="col-4"> <h7>2356</h7> </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-4"> <h7>Дата пред. показаний:</h7> </div>
+                                       <div class="col-4"> <h7>20.11.2020</h7> </div>
+                                    </div>
+                                    <div class="row even">
+                                       <div class="col-4"> <h7>Предыдущее показание:</h7> </div>
+                                       <div class="col-4"> <h7>2123548</h7> </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-4"> <h7>Показание пред. под.</h7> </div>
+                                       <div class="col-4"> <h7>--</h7> </div>
+                                    </div>
+                                    <div class="row even">
+                                       <div class="col-4"> <h7>Показание пред. обр.:</h7> </div>
+                                       <div class="col-4"> <h7>--</h7> </div>
+                                    </div>
+                                    <div class="row divinput">
+                                       <div class="col-4 my-1"> <h6>Текущее показание:</h6> </div>
+                                       <div class="col-4"> <input type="number" class="form-control">  </div>
+                                    </div>
+                                    <div class="row divinput ">
+                                       <div class="col-4 my-1"> <h6>Показание тек. под.:</h6> </div>
+                                       <div class="col-4"> <input type="number" class="form-control">  </div>
+                                    </div>
+                                    <div class="row divinput ">
+                                       <div class="col-4 my-1"> <h6>Показание тек. обр.:</h6> </div>
+                                       <div class="col-4"> <input type="number" class="form-control">  </div>
+                                    </div>
+
+                                    <div class="row ">
+                                       <div class="col-4"> <h7>Расход.</h7> </div>
+                                       <div class="col-4"> <h7>2315</h7> </div>
+                                    </div>
+                                    <div class="row even">
+                                       <div class="col-4"> <h7>Коэф-т транф.:</h7> </div>
+                                       <div class="col-4"> <h7>1</h7> </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-4"> <h7>Итог Расход.:</h7> </div>
+                                       <div class="col-4"> <h7>2315</h7> </div>
+                                    </div>
+
+                                   </div>
+                                </div>
+
+
+
+
+            <div class="tab-pane fade" id="nav-info" role="tabpanel" aria-labelledby="nav-contact-tab">
+               <div class="container">
+                  <div class="row d-flex justify-content-end--">
+                     <img src="telephone.png" class="align-self-center mr-1" alt="...">
+                     <h6 class="mt-0 mb-0 ">+7 423 200-5-777</h6>
+                  </div>
+               </div>
+            </div>
+       </div>
+
+
+      </section>
+      <footer>
+        <div class="container">
+          <button type="button" class="btn btn-primary">Отправить</button>
+        </div>
+
+      </footer>
+      <!-- Optional JavaScript; choose one of the two! -->
+      <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+         -->
+
+
+
+
+   </body>
+</html>
